@@ -1,0 +1,66 @@
+.map-container {
+  position: relative;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.city {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc {
+    display: none;
+  background-color:white;
+  padding: 20px 20px;
+}
+
+.title{
+    width:auto;
+}
+
+.title:hover + .desc{
+    display:block;
+    z-index: 1;
+}
+
+.saharanpur{
+    top: 120px;
+  left: 60px;
+}
+
+.meerut{
+    top:230px;
+    left: 90px;
+}
+
+.partapur{
+    top:260px;
+    left:60px;
+}
+
+.ghaziabad{
+    top:215px;
+    left:20px
+}
+
+.bijnor{
+    top: 175px;
+    left:160px
+}
+
+.shamli{
+    top:170px;
+    left:40px;
+}
+
+.muzzafarnagar{
+    top:190px;
+    left:80px
+}
+
+.hapur{
+    top:270px;
+    left:120px
+}
